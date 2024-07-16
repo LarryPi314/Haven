@@ -1,12 +1,18 @@
-# Kentro Mobile Application
+# Kentro
 
-Kentro is a mobile application designed to host various community crowd-sourcing initiatives such as parks 🏞️, playgrounds 🛝, green spaces 🌱, library renovations📕, and more. Users can create accounts, start initiatives, and contribute payments through Stripe payment integrations. The backend is powered by Express.js and Firebase, while the frontend is built using React Native and Expo.
+Kentro is a mobile platform designed to host various community crowd-sourcing initiatives such as parks 🏞️, playgrounds 🛝, green spaces 🌱, library renovations📕, and more. Users can create accounts, start initiatives, and contribute payments through Stripe payment integrations. The backend is powered by Express.js and Firebase, while the frontend is built using React Native and Expo.
 
 Amid a growingly isolated world with modern technologies at our fingertips, Kentro was designed with the philosophy "local is the future" to incentivize community engagement by allowing residents of a community to win badges and keep track of their community's progress. 
 
 We coded Kentro in a 24 hour session at Hacktech by Caltech 2024, taking home the first place prize.🥇
 
 - Larry Wang, [Rohan Desai](https://github.com/rohan335), [Sofi Zaozerska](https://github.com/sofigoldfoxhmc), [Andy Xu](https://github.com/andaero)
+
+For more information on our software, visit
+https://devpost.com/software/kentro or checkout 
+
+[![kentro-video](https://img.youtube.com/vi/pju4RQyYSng/0.jpg)](https://www.youtube.com/watch?v=pju4RQyYSng)
+
 
 ## Features
 - User Authentication
