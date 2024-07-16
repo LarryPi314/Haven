@@ -1,29 +1,28 @@
-# Kentro
+# Haven 
 
-Kentro is a mobile platform designed to host various community crowd-sourcing initiatives such as parks 🏞️, playgrounds 🛝, green spaces 🌱, library renovations📕, and more. Users can create accounts, start initiatives, and contribute payments through Stripe payment integrations. The backend is powered by Express.js and Firebase, while the frontend is built using React Native and Expo.
+Haven is a mobile platform designed to connect displaced refugees with willing hosts. Users can create accounts, create stay listings, book stay listings, and receive notifications when listings are filled or opened. The backend is powered by Express.js, while the frontend is built using React Native, Expo, and Firebase.
 
-Amid a growingly isolated world with modern technologies at our fingertips, Kentro was designed with the philosophy "local is the future" to incentivize community engagement by allowing residents of a community to win badges and keep track of their community's progress. 
+In a world where refugees face uncertainty at every step of their road, we wanted to design Kentro as a low-latency, efficient solution to help refugees get up on their feet and to their destinations. 
 
-We coded Kentro in a 24 hour session at Hacktech by Caltech 2024, taking home the first place prize.🥇
+We coded Haven in a 24 hour session at the 5CHack 2024, taking home the first place prize.🥇
 
 - Larry Wang, [Rohan Desai](https://github.com/rohan335), [Sofi Zaozerska](https://github.com/sofigoldfoxhmc), [Andy Xu](https://github.com/andaero)
 
-For more information on our software, visit
-https://devpost.com/software/kentro or checkout 
+For more information on our project, visit
+https://devpost.com/software/haven-ez2rys or checkout 
 
-[![kentro-video](https://img.youtube.com/vi/pju4RQyYSng/0.jpg)](https://www.youtube.com/watch?v=pju4RQyYSng)
-
+[![kentro-video](https://img.youtube.com/vi/R5dImxBZCo0/0.jpg)](https://www.youtube.com/watch?v=R5dImxBZCo0)
 
 ## Features
 - User Authentication
-- Create Crowd-Sourcing Initiatives
-- Contribute to Initiatives via Stripe Integrations
+- Create Stay Listings
+- Book Stay Listings
+- Notifications for Listings
 
 ## Tech Stack
 - **Frontend:** React Native, Expo
 - **Backend:** Express.js
 - **Database & Authentication:** Firebase
-- **Payment Integration:** Stripe
 
 ## Installation and Setup
 
@@ -33,13 +32,12 @@ Ensure you have the following installed:
 - npm (v6.x or later) or yarn
 - Expo CLI (`npm install -g expo-cli`)
 - Firebase account and project setup
-- Stripe account and API keys
 
 ### Backend Setup
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/kentro.git
-    cd kentro/backend
+    git clone https://github.com/yourusername/haven.git
+    cd haven/backend
     ```
 
 2. **Install dependencies:**
@@ -57,7 +55,6 @@ Ensure you have the following installed:
     FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
     FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
     FIREBASE_APP_ID=your_firebase_app_id
-    STRIPE_SECRET_KEY=your_stripe_secret_key
     ```
 
 4. **Start the backend server:**
@@ -93,13 +90,6 @@ Ensure you have the following installed:
     ```bash
     expo start
     ```
-
-### Stripe Integration
-1. **Set up Stripe Webhooks:**
-    - Go to your Stripe dashboard.
-    - Navigate to Developers > Webhooks.
-    - Add an endpoint URL: `http://localhost:5000/webhook`.
-    - Select events you want to listen to (e.g., `checkout.session.completed`).
 
 ### Running the Application
 - Ensure the backend server is running (`npm start` in the `backend` directory).
