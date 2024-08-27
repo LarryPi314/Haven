@@ -2,7 +2,7 @@
 
 Haven is a mobile platform designed to connect displaced refugees with willing hosts. Users can create accounts, create stay listings, book stay listings, and receive notifications when listings are filled or opened. The backend is powered by Express.js, while the frontend is built using React Native, Expo, and Firebase.
 
-In a world where refugees face uncertainty at every step of their road, we wanted to design Kentro as a low-latency, efficient solution to help refugees get up on their feet and to their destinations. 
+In a world where refugees face uncertainty at every step of their road, we wanted to design Haven as a low-latency, efficient solution to help refugees get up on their feet and to their destinations. 
 
 We coded Haven in a 24 hour session at the 5CHack 2024, taking home the first place prize.🥇
 
